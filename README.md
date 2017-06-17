@@ -1,6 +1,6 @@
 # omz
 ```shell
-git clone ""
+git clone "git@github.com:psuvjd/omz.git"
 cd omz
 ./install.sh
 cd ../
