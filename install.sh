@@ -2,12 +2,18 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # install fonts
-env git clone https://github.com/powerline/fonts.git
-cd fonts
+FONTS="$HOME/fonts"
+env git clone 'https://github.com/powerline/fonts.git' $FONTS || {
+	echo "git clone occurs error"
+	exit 1
+}
+TMP=`pwd`
+cd $FONTS
 ./install.sh
-cd ..
+cd $HOME
 rm -rf fonts
 # install other fonts patch
+cd $TMP
 cp fonts/* $HOME/Library/Fonts/
 
 # copy powerline theme
