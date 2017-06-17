@@ -2,7 +2,7 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # install fonts
-git clone https://github.com/powerline/fonts.git
+env git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
 cd ..
