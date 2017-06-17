@@ -1,4 +1,5 @@
 git clone "https://github.com/psuvjd/omz.git"
+cd omz
 
 # install fonts
 FONTS="$HOME/fonts"
@@ -26,3 +27,5 @@ source ~/.zshrc
 # hint
 echo "install already done, please change your terminal's font to your favorite one whose name contains Powerline"
 
+cd ../
+rm -rf omz
