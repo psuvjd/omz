@@ -22,7 +22,7 @@ cp themes/powerline.zsh-theme ~/.oh-my-zsh/custom/themes
 
 # change default theme to powerline
 sed -ie 's/^ZSH_THEME.*$/ZSH_THEME="powerline"/g' ~/.zshrc
-source ~/.zshrc
+# source ~/.zshrc
 
 # hint
 echo "install already done, please change your terminal's font to your favorite one whose name contains Powerline"
