@@ -1,6 +1,8 @@
 # omz
-```git clone ""
+```shell
+git clone ""
 cd omz
 ./install.sh
 cd ../
-rm -rf omz```
+rm -rf omz
+```
