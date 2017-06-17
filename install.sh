@@ -1,3 +1,5 @@
+git clone "https://github.com/psuvjd/omz.git"
+
 # install fonts
 FONTS="$HOME/fonts"
 env git clone 'https://github.com/powerline/fonts.git' $FONTS || {
