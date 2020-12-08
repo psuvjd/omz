@@ -1,9 +1,9 @@
-git clone "https://github.com/psuvjd/omz.git"
+git clone "https://gitee.com/psuvjd/omz.git"
 cd omz
 
 # install fonts
-FONTS="$HOME/fonts"
-env git clone 'https://github.com/powerline/fonts.git' $FONTS || {
+FONTS="${HOME}/fonts"
+env git clone 'https://gitee.com/psuvjd/fonts.git' $FONTS || {
 	echo "git clone occurs error"
 	exit 1
 }
