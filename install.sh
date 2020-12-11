@@ -18,7 +18,7 @@ cp fonts/* $HOME/Library/Fonts/
 
 # copy powerline theme
 mkdir -p ~/.oh-my-zsh/custom/themes
-cp themes/powerline.zsh-theme ~/.oh-my-zsh/custom/themes
+mv themes/powerline.zsh-theme ~/.oh-my-zsh/custom/themes
 
 # change default theme to powerline
 sed -ie 's/^ZSH_THEME.*$/ZSH_THEME="powerline"/g' ~/.zshrc
